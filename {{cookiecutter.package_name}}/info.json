@@ -1,0 +1,22 @@
+{#
+`required_cogs`, `requirements`, `min_bot_version`, `hidden`, and `disabled`
+are added here for convenience, but they're not part of cookiecutter template.
+-#}
+{% set authors = cookiecutter.authors.split(";") -%}
+{% set tags = cookiecutter.tags.split() -%}
+{
+    "name": "{{ cookiecutter.cog_class_name }}",
+    "short": "{{ cookiecutter.short }}",
+    "description": "{{ cookiecutter.description }}",
+    {% if cookiecutter.install_msg -%}
+    "install_msg": "{{ cookiecutter.install_msg }}",
+    {% endif -%}
+    "author": {{ authors | map('trim') | list | jsonify | indent }},
+    "required_cogs": {},
+    "requirements": [],
+    "tags": {{ tags | jsonify | indent }},
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}

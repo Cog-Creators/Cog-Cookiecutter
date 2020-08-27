@@ -1,0 +1,10 @@
+{
+    "package_name": null,
+    "cog_class_name": null,
+    "config_identifier": null,
+    "short": "A short description of the cog.",
+    "description": "A long description of the cog.",
+    "install_msg": "",
+    "authors": "Author 1; Author 2",
+    "tags": "tag1 tag2 tag3"
+}
