@@ -8,6 +8,7 @@ are added here for convenience, but they're not part of cookiecutter template.
     "name": "{{ cookiecutter.cog_class_name }}",
     "short": "{{ cookiecutter.short }}",
     "description": "{{ cookiecutter.description }}",
+    "end_user_data_statement": "{{ cookiecutter.end_user_data_statement }}",
     {% if cookiecutter.install_msg -%}
     "install_msg": "{{ cookiecutter.install_msg }}",
     {% endif -%}

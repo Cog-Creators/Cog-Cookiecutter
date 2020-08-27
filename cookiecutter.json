@@ -5,6 +5,7 @@
     "short": "A short description of the cog.",
     "description": "A long description of the cog.",
     "install_msg": "",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
     "authors": "Author 1; Author 2",
     "tags": "tag1 tag2 tag3"
 }

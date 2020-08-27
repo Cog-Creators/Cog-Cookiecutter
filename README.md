@@ -18,7 +18,7 @@ cookiecutter https://github.com/Cog-Creators/cog-cookiecutter
 
 ### Supported variables
 
-The values of variables `short`, `long`, and `install_msg` are put directly inside JSON string quotes, no escaping is done to the input.
+The values of variables `short`, `long`, `install_msg`, and `end_user_data_statement` are put directly inside JSON string quotes, no escaping is done to the input.
 
 - `package_name` - Name of a cog package. This is the folder name the cog will reside in and the name that will have to be used when loading the cog. This name should be lowercase.
 - `cog_class_name` - Name of the cog's class. This name is shown in help and needs to be valid Python identifier. This name should be TitleCase.
@@ -26,5 +26,6 @@ The values of variables `short`, `long`, and `install_msg` are put directly insi
 - `short` - A short description of the cog. See [info.json format documentation](https://docs.discord.red/en/stable/guide_publish_cogs.html#info-json-format).
 - `long` - A long description of the cog. See [info.json format documentation](https://docs.discord.red/en/stable/guide_publish_cogs.html#info-json-format).
 - `install_msg` (optional) - The message that gets displayed when a cog is installed. See [info.json format documentation](https://docs.discord.red/en/stable/guide_publish_cogs.html#info-json-format).
+- `end_user_data_statement` - A statement explaining what end user data the cog is storing. See [info.json format documentation](https://docs.discord.red/en/stable/guide_publish_cogs.html#info-json-format) and [Guidelines for Cog Creators](https://docs.discord.red/en/latest/guide_cog_creation.html#guidelines-for-cog-creators).
 - `authors` - Colon-separated list of authors, e.g. "Guido van Rossum; Victor Stinner; Brett Cannon". See [info.json format documentation](https://docs.discord.red/en/stable/guide_publish_cogs.html#info-json-format).
 - `tags` - Space-separated list of tags, e.g. "image tools statistics". See [info.json format documentation](https://docs.discord.red/en/stable/guide_publish_cogs.html#info-json-format).
