@@ -5,6 +5,7 @@ are added here for convenience, but they're not part of cookiecutter template.
 {% set authors = cookiecutter.authors.split(";") -%}
 {% set tags = cookiecutter.tags.split() -%}
 {
+    "$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
     "name": "{{ cookiecutter.cog_class_name }}",
     "short": "{{ cookiecutter.short }}",
     "description": "{{ cookiecutter.description }}",
